@@ -1,0 +1,18 @@
+.searchResultsContainer {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: flex-start; /* Align items to the start (left) */
+    width: 45%;
+}
+
+.listItems {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    align-items: left;
+  }
+  
+.listItems li {
+    margin-bottom: 8px; /* Add spacing between list items */
+    text-align: left;
+
+}
